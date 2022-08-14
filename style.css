@@ -1,0 +1,61 @@
+.header img{
+width: 50px;
+
+}
+
+.header {
+  display: flex;
+  background-color: rgb(12, 12, 12);
+  height: auto;
+}
+
+.header input{
+  justify-content: flex-end;
+  margin-top: 20px;
+  align-items: center;
+ height: 30px;
+ color: black;
+}
+input{color: black;}
+
+.header button{
+  margin-top: 20px;
+  align-items: center;
+ height: 48px;
+ color: black;
+}
+select{color: black;}
+
+textarea{color: black;}
+
+*{color: white;padding: 7px;}
+body{background-image: url("https://images8.alphacoders.com/110/thumb-1920-1102284.jpg");
+
+}
+
+
+.trybewarts-login {
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.trybewarts-header-logo {
+  float: left;
+}
+
+#evaluation-form {
+  flex-direction: column;
+  display: flex;
+  width: 675px;
+}
+
+#form-main {
+  display: flex;
+  float: left;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  float: right;
+}
